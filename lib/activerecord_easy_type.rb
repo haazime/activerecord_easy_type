@@ -3,4 +3,5 @@ require 'activerecord_easy_type/base'
 
 module ActiverecordEasyType
   autoload :String, 'activerecord_easy_type/string'
+  autoload :Integer, 'activerecord_easy_type/integer'
 end

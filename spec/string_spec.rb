@@ -1,8 +1,6 @@
 require 'spec_helper'
 
 RSpec.describe Customer do
-  after { Customer.destroy_all }
-
   describe 'String <=> CustomType' do
     let(:person_name) { PersonName.new('Hazime', 'Sueyoshi') }
 

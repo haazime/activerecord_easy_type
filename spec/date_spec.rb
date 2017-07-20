@@ -1,8 +1,6 @@
 require 'spec_helper'
 
 RSpec.describe Customer do
-  after { Customer.destroy_all }
-
   describe 'Date <=> CustomType' do
     let(:age) { Age.from_birth(Date.new(2001, 1, 23)) }
 

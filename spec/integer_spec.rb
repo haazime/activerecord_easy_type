@@ -1,8 +1,6 @@
 require 'spec_helper'
 
 RSpec.describe Customer do
-  after { Customer.destroy_all }
-
   describe 'Integer <=> CustomType' do
     let(:height) { Height.new(183) }
 

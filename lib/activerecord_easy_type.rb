@@ -1,5 +1,6 @@
-require "activerecord_easy_type/version"
+require 'activerecord_easy_type/version'
+require 'activerecord_easy_type/base'
 
 module ActiverecordEasyType
-  # Your code goes here...
+  autoload :String, 'activerecord_easy_type/string'
 end

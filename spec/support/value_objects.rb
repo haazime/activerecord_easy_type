@@ -17,3 +17,17 @@ Height = Struct.new(:in_centimeter) do
     in_centimeter
   end
 end
+
+Age = Struct.new(:birth) do
+  def self.from_birth(date)
+    new(date)
+  end
+
+  def self.from_date(date)
+    from_birth(date)
+  end
+
+  def to_date
+    birth
+  end
+end

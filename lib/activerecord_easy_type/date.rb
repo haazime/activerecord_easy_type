@@ -4,6 +4,7 @@ module ActiverecordEasyType
   class Date < Base
 
     def serialize(obj)
+      return super unless obj
       obj.to_date
     end
 

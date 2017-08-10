@@ -1,5 +1,3 @@
-require 'active_record'
-
 module ActiverecordEasyType
   class Base < ActiveRecord::Type::Value
 

@@ -1,9 +1,7 @@
 require 'bundler/setup'
 require 'activerecord_easy_type'
 
-require_relative './support/setup_db'
-require_relative './support/models'
-require_relative './support/value_objects'
+require_relative './support/app'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
